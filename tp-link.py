@@ -84,7 +84,7 @@ if __name__ == "__main__":
     # Create an object of database module
     database = Database()
     # Create an object of router module
-    router = Router('192.168.0.1', 'Esu','roy_007')
+    router = Router('192.168.0.1', 'admin','admin')
     
     try:
         if router.login(): # login success
